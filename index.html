@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mechanical Keyboards</title>
+        <link href="styles.css" rel="stylesheet" type="text/css" />
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <main>
+            <nav id="navbar">
+                <h1> <a href="#">Mechanical Keyboards</a></h1>
+                <ul>
+                    <li><a href="#Keyboards">Keyboards</a></li>
+                    <li><a href="#Layouts">Layouts</a></li>
+                    <li><a href="#Switches">Switches</a></li>
+                    <li><a href="#Keycaps">Keycaps</a></li>
+            </nav>
+
+
+            <section id="Keyboards">
+                <h2>Keyboards</h2>
+                <pre>
+     Mechanical Keyboards are growing in popularity as industry professionals, gamers, and students 
+     are beginning to take interest in their functionality and feel. With its vast and customizable
+     features, mechanical keyboards allow users to express their creative and unique styles.
+                </pre>
+            </section>
+
+            <section id="Layouts">
+                <h2 data-aos="fade-down">Layouts</h2>
+                <div id="ansi">
+                    <img data-aos="fade-right" data-aos-delay = "500" src="photos/ANSI_layout.png">
+                    <p data-aos="fade-right" data-aos-delay = "1000">
+                        ANSI is a very common and favorited layout used throughout the United States. Noteable features
+                        include its much larger &apos;left-shift&apos; key, single-row &apos;enter/return&apos; key, and 
+                        it's &apos;@&apos; symbol being used as a layer on the &apos;2&apos; key. Outside of the ISO layout,
+                        the HHKB (Happy Hacking Keyboard) layout is also very popular amongst the coding community.
+                    </p>
+                </div>
+
+                <div id="iso">
+                    <p  data-aos="fade-left" data-aos-delay = "1000">
+                        ISO is a very popular keyboard layout used outside of the United States, especially in places like
+                        Europe. With it's distinct layout, it makes typing in other languages a much smoother process. It
+                        has key features like the gigantic double-row &apos;enter/return&apos; key, it's fourth row 
+                        &apos;backslash&apos; key, and its tiny &apos;left-shift&apos; key.
+                    </p>
+                    <img data-aos="fade-left" data-aos-delay = "500" src="photos/ISO_layout.png">
+                </div>
+            </section>
+
+            <section id="Switches">
+                <h2 data-aos="zoom-in">Switches</h2>
+                <ul>
+                    <li data-aos="flip-left" data-aos-delay = "500" class="card">
+                        <img src="photos/creams.png">
+                        <h3>Linear Switches</h3>
+                        <p>
+                            Linear switches are very smooth with with no bump when pressing down. Linear
+                            switches have a very short actuation point and often are the preferred choice of professional
+                            gamers by nature of the switches speed. The switches shown above are the very popular NovelKey 
+                            Cream Switches.
+                        </p>
+                        <div class="audio-control">
+                            <label>Play Audio</label>
+                            <audio controls>
+                                <source src="switch-audio/linear_switches.mp3">
+                            </audio>
+                        </div>
+                    </li>
+                    <li data-aos="flip-left" data-aos-delay = "1000" class="card">
+                        <img src="photos/box_jade.jpeg">
+                        <h3>Clicky Switches</h3>
+                        <p>
+                            Clicky switches are exactly what they say they are...CLICKY! With their loud and recognizable
+                            sound, clicky switches are much more of a personal preference in terms of its popularity. Users tend
+                            to either love clicky switches or hate them. Shown above are the notorious Box Jade Switches.
+                        </p>
+                        <div class="audio-control">
+                            <label>Play Audio</label>
+                            <audio controls>
+                                <source src="switch-audio/clicky_switches.mp3">
+                            </audio>
+                        </div>
+                    </li>
+                    <li data-aos="flip-left" data-aos-delay = "1500" class="card">
+                        <img src="photos/holy_panda.png">
+                        <h3>Tactile Switches</h3>
+                        <p>
+                            Tactile switches are by far the most popular type of switch in the keyboard community.
+                            Known for it's signature bump and thocky noise, tactile switches provide both a satisfying
+                            feel and sound that users can't get enough of. Shown above are the cream of the crop Holy Panda Switches.
+                        </p>
+                        <div class="audio-control">
+                            <label>Play Audio</label>
+                            <audio controls>
+                                <source src="switch-audio/tactile_switches.mp3">
+                            </audio>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+
+            <section id="Keycaps">
+                <h2 data-aos="fade-down">Keycaps</h2>
+                <p data-aos="zoom-in-up" data-aos-delay="500">
+                    Keycaps are what allow keyboard users to express their true sense of style. With so many different
+                    types of keycaps, builders are really able to narrow down their prefernces. Keycaps are most commonly known
+                    for their Cherry profile, but also have other shapes and sizes in profiles like SA, MT3, and DSA.
+                    Different profiles lead to different sounds, making the keyboard building experience that much more 
+                    personal! Highlighted below is my favorite set: GMK Striker.
+                </p>
+                <div>
+                    <img data-aos="fade-up" data-aos-delay="1000" src="photos/striker.jpeg">
+                </div>
+            </section>
+
+        </main>
+        
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+		<script>
+			AOS.init();
+		</script>
+    </body>
+
+</html>
